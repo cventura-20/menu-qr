@@ -5,9 +5,7 @@ export function SearchResultsSummary(props) {
   let resultStats = null;
   if (props.amountResults && props.shownResults) {
     resultStats = (
-      <p>
-        Mostrando 1-{props.shownResults} de {props.amountResults} tu busqueda.
-      </p>
+      <p>Se obtuvieron {props.amountResults} resultados de tu busqueda.</p>
     );
   }
   return (

@@ -7,10 +7,10 @@ export function SubNav() {
     <div className={styles.container}>
       <div className={styles["sub-nav"]}>
         <div>
-          <SubNavItem label="Restaurant" icon="fa-utensils" />
-          <SubNavItem label="Home Services" icon="fa-home" />
-          <SubNavItem label="Auto Services" icon="fa-car-side" />
-          <SubNavItem label="More" icon="fa-info-circle" showRightBorder />
+          <SubNavItem label="Restaurantes" icon="fa-utensils" />
+          <SubNavItem label="Entrega a Domicilio" icon="fa-home" />
+          <SubNavItem label="Auto Servicio" icon="fa-car-side" />
+          <SubNavItem label="Mas" icon="fa-info-circle" showRightBorder />
         </div>
         <div>
           <button
@@ -19,13 +19,13 @@ export function SubNav() {
             <span className="icon">
               <i className="fas fa-pen" />
             </span>
-            <span>Wre a Review</span>
+            <span>Danos tu opinión</span>
           </button>
           <button className={`button ${styles["subnav-button"]}`}>
             <span className="icon">
               <i className="fas fa-hotel" />
             </span>
-            <span>For Businesses</span>
+            <span>Para Negocios</span>
           </button>
         </div>
       </div>

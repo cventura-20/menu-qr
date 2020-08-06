@@ -3,10 +3,10 @@
 }
 
 :global(.button).search-button {
-  background: #ea4e1b;
+  background: #253238;
   border: none;
 }
 
 :global(.icon).search-icon {
-  color: #253238;
+  color: #ea4e1b;
 }

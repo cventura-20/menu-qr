@@ -8,7 +8,7 @@ export function NavBar(props) {
   return (
     <div className={styles["nav-bar"]}>
       <Link to="/">
-        <img src={logo} className={styles.logo} alt="belb logo" />
+        <img src={logo} className={styles.logo} alt="El menu en tu mano" />
       </Link>
       <SearchBar
         small

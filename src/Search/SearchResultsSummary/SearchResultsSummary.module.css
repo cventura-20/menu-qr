@@ -14,11 +14,11 @@
 }
 
 .container {
-  background: #253238;
+  background: #706c6b;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-bottom: #232323;
+  border-bottom: #ffffff;
 }
 
 .container > * {
