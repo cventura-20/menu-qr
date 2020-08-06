@@ -10,7 +10,11 @@ export function TopNav() {
       </div>
       <div className={styles.right}>
         <span>¿Ya tienes cuenta?</span>
-        <button className="button">Ingres</button>
+        <button className="button">Ingresa</button>
+      </div>
+      <div className={styles.right}>
+        <span>¿No tienes cuenta?</span>
+        <button className="button">Registrate</button>
       </div>
     </div>
   );
